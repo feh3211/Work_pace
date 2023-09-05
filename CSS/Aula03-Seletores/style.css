@@ -1,0 +1,19 @@
+/*cores conjuntas*/
+.conjunto1{
+    color: rgb(165, 42, 42);
+}
+
+.conjunto2{
+    color: blue; 
+    font-weight: 900s;
+}
+
+.conjunto3{
+    background-color: aqua;
+}
+
+/*cores individuais*/
+
+#pipoca{
+    color: blueviolet;
+}
