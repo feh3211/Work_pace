@@ -11,3 +11,22 @@ img{
     width: 150px  /* largura */
     height: 200px /* altura */
 }
+
+/*imagem de fundo*/
+
+body{
+    background-image: url("img/imagem\ de\ fundo\ 333.jpg");
+    background-position: 600px;
+    background-attachment: ;
+    background-size: 600px;
+}
+
+
+
+
+
+
+
+p{color: white;}
+h2{ color: white;}
+figure{color: white;}
