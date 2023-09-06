@@ -1,0 +1,13 @@
+#div1{ 
+    /*Grossura da borda / estilo da borda / */
+    border: 8px dashed #7ffd7f;
+ } 
+
+#div2{
+    border: 3px outset #8A2BE2;
+}
+
+img{
+    width: 150px  /* largura */
+    height: 200px /* altura */
+}
