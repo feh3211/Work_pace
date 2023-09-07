@@ -6,8 +6,11 @@ body{
 }
 
 h3{ color: #6590d1;
-text-shadow: 3px 3px 3px #48789f;}
+text-shadow: 3px 3px 3px #48789f;
+
+}
 
 #squidgame{
-    width: 500px 300px;
+    width: 500px; 
+    height: 300px;
 }
