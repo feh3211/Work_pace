@@ -1,0 +1,13 @@
+body{
+    font-size: 1rem;
+    font-family: 'robot mono', monospace;
+    background: #b3e9f3;
+    font-weight: 700
+}
+
+h3{ color: #6590d1;
+text-shadow: 3px 3px 3px #48789f;}
+
+#squidgame{
+    width: 500px 300px;
+}
