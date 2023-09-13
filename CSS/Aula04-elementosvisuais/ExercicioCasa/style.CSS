@@ -1,7 +1,9 @@
 body{
     background-color: #eefaa8;
     font-family: 'Rajdhani', sans-serif;
-    border: 80%p
+    border: 80%;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 header{
