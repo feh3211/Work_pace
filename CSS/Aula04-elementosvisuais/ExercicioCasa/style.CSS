@@ -1,0 +1,32 @@
+body{
+    background-color: #eefaa8;
+    font-family: 'Rajdhani', sans-serif;
+    border: 80%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+header{
+    background-color:  #649ea7;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+#tabelapipoca{
+    border: 1px solid #000000;
+}
+
+head{
+    background-color: #8fbfb9;
+
+}
+
+table{
+    border: 1px solid #000000;
+}
+
+.cabeçalho2{
+    background-color: #8fbfb9;
+    font-family: bold;
+}
+
