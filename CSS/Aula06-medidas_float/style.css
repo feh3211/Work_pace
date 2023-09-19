@@ -1,9 +1,8 @@
 html{
-    font-size: 40em;
-
+    font-size: 1em;
 }
 #pai{
-    font-size: 16px;
+    font-size: 16x;
 }
 
 p{
@@ -11,6 +10,14 @@ p{
 }
 
 img{
-    width: 22em; /*finura*/
-    height: 19em; /*altura*/
+    width: 350px;
+}
+
+#primeiraImagem{
+    float: right;
+}
+
+#segundaImagem{
+    float: left;
+    clear: none;
 }
