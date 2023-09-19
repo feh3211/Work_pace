@@ -1,0 +1,16 @@
+html{
+    font-size: 40em;
+
+}
+#pai{
+    font-size: 16px;
+}
+
+p{
+    font-size: 1em; /*multiplicador de pixel*/
+}
+
+img{
+    width: 22em; /*finura*/
+    height: 19em; /*altura*/
+}
