@@ -2,7 +2,7 @@ html{
     font-size: 1em;
 }
 #pai{
-    font-size: 16x;
+    font-size: 16px;
 }
 
 p{
@@ -15,9 +15,10 @@ img{
 
 #primeiraImagem{
     float: right;
+    width: 420px;
+    height: 251px;
 }
 
 #segundaImagem{
     float: left;
-    clear: none;
-}
+    clear: none;}
