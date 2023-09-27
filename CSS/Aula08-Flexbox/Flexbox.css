@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#container{
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    /*flex-wrap: wrap-reverse;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+    /*justify-content: center;*/
+    /*align-items: flex-start;*/
+    /*align-items: center;*/
+    /*align-items: baseline;*/
+    /*align-items: flex-end;*/
+    border: 1px solid black;
+    height: 150px;
+}
+
+.filho-2{
+    flex-grow: 4;
+    border: 1px solid blue;
+    background-color: mediumpurple;
+
+}
+
+.itens{
+    border: 1px solid blue;
+    background-color: mediumpurple;
+}
