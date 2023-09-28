@@ -1,42 +1,42 @@
-#container {
+#container{
   display: grid;
-  /*grid-template-columns: 50px 50px 50px 50px;*/
-  grid-template-rows: auto;
+
+  /* grid-template-columns: 300px 30px 30px 30px ;
+  grid-template-rows:20px 20px; */
 
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "div6" "div6" "div6" . "div2" "div2 div7 div7" "div5" "div5" "div5";
+  grid-template-rows: auto ;
+  grid-template-areas: "div6 div6 div6 ." "div2 div2 div7 div7" "div5 div5 div5 div5" ;
+
 }
 
-.itens-1 {
-  grid-area: div1;
-  border: 1px solid yellowgreen;
+.item-1{
+  grid-area:div1 ;
 }
-.itens-2 {
-  grid-area: div2;
-  border: 1px solid red;
+
+.item-2{
+  grid-area:div2 ;
 }
-.itens-3 {
-  grid-area: div3;
-  border: 1px solid yellowgreen;
+.item-3{
+  grid-area:div3 ;
 }
-.itens-4 {
-  grid-area: div4;
-  border: 1px solid red;
+
+.item-4{
+  grid-area:div4 ;
 }
-.itens-5 {
-  grid-area: div4;
-  border: 1px solid yellowgreen;
+
+.item-5{
+  grid-area:div5 ;
 }
-.itens-6 {
-  grid-area: div6;
-  border: 1px solid red;
+
+.item-6{
+  grid-area:div6 ;
 }
-.itens-7 {
-  grid-area: div7;
-  border: 1px solid yellowgreen;
+
+.item-7{
+  grid-area:div7 ;
 }
-.itens-8 {
-  grid-area: div8;
-  border: 1px solid red;
+
+.item-8{
+  grid-area:div8 ;
 }
