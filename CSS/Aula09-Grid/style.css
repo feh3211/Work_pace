@@ -1,0 +1,42 @@
+#container {
+  display: grid;
+  /*grid-template-columns: 50px 50px 50px 50px;*/
+  grid-template-rows: auto;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "div6" "div6" "div6" . "div2" "div2 div7 div7" "div5" "div5" "div5";
+}
+
+.itens-1 {
+  grid-area: div1;
+  border: 1px solid yellowgreen;
+}
+.itens-2 {
+  grid-area: div2;
+  border: 1px solid red;
+}
+.itens-3 {
+  grid-area: div3;
+  border: 1px solid yellowgreen;
+}
+.itens-4 {
+  grid-area: div4;
+  border: 1px solid red;
+}
+.itens-5 {
+  grid-area: div4;
+  border: 1px solid yellowgreen;
+}
+.itens-6 {
+  grid-area: div6;
+  border: 1px solid red;
+}
+.itens-7 {
+  grid-area: div7;
+  border: 1px solid yellowgreen;
+}
+.itens-8 {
+  grid-area: div8;
+  border: 1px solid red;
+}
