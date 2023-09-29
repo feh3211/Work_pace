@@ -1,42 +1,57 @@
-#container{
+  #container{
   display: grid;
 
-  /* grid-template-columns: 300px 30px 30px 30px ;
-  grid-template-rows:20px 20px; */
-
+  /*grid-template-columns: 30px 30px 30px 30px;*/
+  /*grid-template-rows:20px 20px;*/ 
+   
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto ;
-  grid-template-areas: "div6 div6 div6 ." "div2 div2 div7 div7" "div5 div5 div5 div5" ;
-
+  /*grid-template-rows: 100px 100px 100px;*/
+  /*grid-template-areas: "div6 div6 div6 ." "div2 div2 div7 div7" "div5 div5 div5 div5" ;*/
+  column-gap: 30px; /*separa as colunas*/
+  row-gap: 30px; /*separa linhas horizontais*/ 
+  justify-items: center; /*move para cima e para baixo dentro da celula*/
+  align-items: end; /*move para esquerda e direita os filhos dentro da celula*/
+  justify-content: start; /*move todas as celulas da dentro do container, para que essa prorpriedade funcione teremos que definir uma altura*/
+  height: 10vh;
+  width: 30vh;
+  align-content: space-around;
 }
 
 .item-1{
-  grid-area:div1 ;
+  border: 3px solid red;
+  
 }
 
 .item-2{
-  grid-area:div2 ;
+  border: 3px solid purple;
+
 }
 .item-3{
-  grid-area:div3 ;
+  border: 3px solid red;
+
 }
 
 .item-4{
-  grid-area:div4 ;
+  border: 3px solid purple;
+
 }
 
 .item-5{
-  grid-area:div5 ;
+  border: 3px solid red;
+
 }
 
 .item-6{
-  grid-area:div6 ;
+  border: 3px solid purple;
+
 }
 
 .item-7{
-  grid-area:div7 ;
+  border: 3px solid red;
+
 }
 
 .item-8{
-  grid-area:div8 ;
-}
+  border: 3px solid purple;
+
+} 
