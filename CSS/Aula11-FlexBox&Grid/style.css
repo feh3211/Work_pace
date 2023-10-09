@@ -55,13 +55,14 @@ img {
 
 .card h3 {
   margin-bottom: 2rem;
-}
-.card img {
+ }
+ .card img {
   height: 400px;
-}
-.card > div {
+ }
+ .card>div {
   padding: 2rem;
-}
+ }
+ 
 .card:nth-child(even) img {
   order: 2;
 }

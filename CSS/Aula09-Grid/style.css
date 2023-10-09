@@ -13,7 +13,7 @@
   align-items: end; /*move para esquerda e direita os filhos dentro da celula*/
   justify-content: start; /*move todas as celulas da dentro do container, para que essa prorpriedade funcione teremos que definir uma altura*/
   height: 10vh;
-  width: 30vh;
+  width: 50vh;
   align-content: space-around;
 }
 
