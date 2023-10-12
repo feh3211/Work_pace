@@ -1,0 +1,1 @@
+alert("vamos chorar com js/aprender")
