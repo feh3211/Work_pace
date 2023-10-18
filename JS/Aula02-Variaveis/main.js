@@ -1,6 +1,6 @@
 var nomeDoPrimeiroAluno = "Felipe"
 
-console.log("nomeDoPrimeiroAluno");
+console.log(nomeDoPrimeiroAluno)
 
 let numeroDeAprovados = 5 
 
