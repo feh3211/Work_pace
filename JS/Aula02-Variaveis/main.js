@@ -27,7 +27,7 @@ console.log(soma)
 
 
 
-//string//
+//string
 
 var texto1 = "aelra lasldla lasdlasdl 1 \n"
 
@@ -38,3 +38,38 @@ console.log(texto1 + texto2)
 var osDeVerdadeEuSeiQuemSao = true;
 
 console.log("five" * 2) /*NaN*/
+
+console.clear()
+
+
+
+//incremento 
+
+var incremento = 2;
+
+//incremento = incremento + 6 
+//ou...
+incremento+=6
+
+console.log(incremento)
+
+
+
+var imparPar = 3%2
+
+console.log("se o resultado for impar é 1, se o resultado for par é 0, então o resultado seria: " + imparPar)
+
+
+
+//verdadeiro ou falso?
+
+var comparacao = 2 > 3
+
+console.log("2 é maior que 3\t" + comparacao)
+
+console.clear()
+
+
+var doisSinaisDeIgual = 3 === 2
+
+console.log(doisSinaisDeIgual)
