@@ -1,18 +1,18 @@
 let professoraBateuNoAluno = true
-let professoraXingouAluno = false 
+let professoraXingouAluno = true 
 
 if(professoraBateuNoAluno == true && professoraXingouAluno == true){  
     console.log("professora demitida com sucesso!!")
 }
 
+//------------------------------------------------------------
 let numero1 = 10
 let numero2 = 4
 
 if(numero1 != numero2){
     console.log("os dois são diferentes")
 }
-
-console.clear()
+//-------------------------------------------------------------
 
 let teraComidaTOTVS = true
 
@@ -22,7 +22,7 @@ if(!teraComidaTOTVS == true){
     console.log("Você terá que almoçar")
 }
 
-//________________________________________________________________
+//-------------------------------------------------------------
 
 let numero = 10 
 
@@ -31,7 +31,7 @@ if(numero % 2 == 0){
 }else{("O numero " + numero + " é impar")
 
 }
-//-----------------------------------------------------------------------
+//-------------------------------------------------------------
 
 let morangoMaduro = null //vazio
 
@@ -43,8 +43,8 @@ else{
     console.log("seu morango está mofado")
 }
 
-console.clear()
-//_____________________________________________________________________
+
+//-------------------------------------------------------------
 
 let caminhoDasIndias = 9
 let idade = 10
@@ -58,7 +58,7 @@ if(caminhoDasIndias == 9){
         console.log("Você ainda está novo")
         }
 }
-//----------------------------------------------------------------------
+//-------------------------------------------------------------
 
 let fase2 = 70
 let fase3 = false
@@ -71,3 +71,4 @@ if(inscricao == true){
 }else{
     console.log("Você não passou na fase2")
 }
+//-------------------------------------------------------------
