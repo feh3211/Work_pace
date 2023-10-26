@@ -72,3 +72,37 @@ if(inscricao == true){
     console.log("Você não passou na fase2")
 }
 //-------------------------------------------------------------
+
+let pipoca1 = 10
+let pipoca2 = 52
+
+    pipoca1 > pipoca2 ? console.log(pipoca1 + " é maior") : console.log(pipoca2 + " é maior")
+
+console.clear()
+
+//-------------------------------------------------------
+let mes = 3 
+
+switch(mes){ //switch
+
+    case 3:
+        console.log("Março")
+    break;
+
+    case 4:
+        console.log("Abril")
+    break;
+
+    case 10:
+        console.log("Outubro")
+    break;
+
+    case 12:
+        console.log("Dezembro")
+    break;
+
+    default:
+        console.log("Não encontrei seu mês")
+}
+
+    console.clear()
