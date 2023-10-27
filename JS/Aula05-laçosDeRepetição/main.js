@@ -1,4 +1,4 @@
-/*let contador = 10
+let contador = 10
 
 while(contador >= 0){ //true
     console.log(`O numero do contador ${contador}`)
@@ -10,7 +10,7 @@ do{
     debugger
     console.log(`O numero do contador é ${contador}`)
     dor++;
-}while (dor <= 10)*/
+}while (dor <= 10)
          
 //--------------------------------------------------------
     //inicialização    //condição    //incremento
