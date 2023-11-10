@@ -45,6 +45,9 @@ for (var f = 0; f <= acessaName.length; f++) {
 
 
 
+
+
+
 // Remover um elemento no DOM
 let item2 = document.getElementByld('item2');
 item2.remove();
