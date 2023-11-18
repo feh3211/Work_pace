@@ -1,0 +1,27 @@
+Com suas palavras explique o que é:
+1.React;
+2.Diferença de biblioteca e Framework;
+3.Props;
+4.hooks;
+5.Componentes;
+Coloque todas as suas reposta em um arquivo TXT e abaixo de cada resposta insira os links que você utilizou para elaborar e entender o conteúdo suba no GitHub na pasta da aula de hoje e disponibilize o link na plataforma do IOS
+
+
+1. React:
+O React é uma biblioteca de JavaScript para construir interfaces de usuário interativas. Desenvolvido pelo Facebook, 
+o React permite criar componentes reutilizáveis que atualizam eficientemente a interface quando o estado dos dados é alterado. 
+Ele é amplamente utilizado no desenvolvimento de aplicativos da web para criar interfaces de usuário dinâmicas, responsivas e bem otimizada. 
+
+2. A diferença fundamental entre uma biblioteca e um framework é o controle de fluxo. Em uma biblioteca, você tem o controle e 
+chama as funções quando necessário, enquanto em um framework, o controle é invertido, e o framework chama as funções quando necessário.
+Em outras palavras, no desenvolvimento com uma biblioteca, você dita o fluxo do seu aplicativo, enquanto em um framework, o fluxo é ditado pelo framework.
+
+3. Props, ou propriedades, são meios de passar dados de um componente pai para um componente filho no React. 
+São essencialmente atributos que você define e passa para um componente quando o utiliza.
+Isso permite a comunicação entre componentes e a transferência de dados de maneira hierárquica na estrutura de componentes do React.
+
+4. Hooks são funções especiais no React que permitem usar o estado e outros recursos do React em componentes de função, em vez de componentes de classe. 
+Eles foram introduzidos no React 16.8 para possibilitar o uso de recursos de classe em componentes de função, tornando o código mais conciso e reutilizável.
+
+5. No React, um componente é uma unidade independente e reutilizável que pode conter tanto a lógica quanto a interface do usuário. 
+Os componentes são uma parte central do desenvolvimento React, permitindo dividir a interface do usuário em partes menores e mais gerenciáveis.
